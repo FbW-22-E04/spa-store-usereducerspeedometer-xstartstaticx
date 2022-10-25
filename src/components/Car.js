@@ -25,10 +25,10 @@ export default function Car() {
         <ReactSpeedometer
           needleHeightRatio={0.7}
           maxValue={240}
-          maxSegmentLabels={4}
+          maxSegmentLabels={5}
           segments={3}
-          customSegmentStops={[0, 96, 144, 192, 240]}
-          segmentColors={["firebrick", "tomato", "gold", "limegreen"]}
+          customSegmentStops={[0, 48, 96, 144, 192, 240]}
+          segmentColors={["firebrick", "tomato", "gold", "limegreen", "green"]}
           currentValueText={`${state} km/h`}
           value={parseInt(state)}
         />
